@@ -1,13 +1,19 @@
 import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="container">
+    <Router>
       <Topbar />
-      <Sidebar />
-    </div>
+      <div className="container">
+        <Sidebar />
+        <Switch>
+          <Route></Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
