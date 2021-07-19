@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
