@@ -1,10 +1,10 @@
-import { Tooltip } from "@material-ui/core";
 import {
   CartesianGrid,
   Line,
   LineChart,
   ResponsiveContainer,
   XAxis,
+  Tooltip,
 } from "recharts";
 import "./chart.css";
 

@@ -35,7 +35,7 @@ function Sidebar() {
 
             <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
-              Home
+              Trending
             </li>
           </ul>
         </div>
